@@ -39,7 +39,8 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
-# homepage
+
+
 @app.route("/")
 def welcome():
     """List all available api routes."""
